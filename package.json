@@ -1,7 +1,6 @@
 {
   "name": "react-cry-mom-button",
   "description": "A button for crying babies",
-  "private": true,
   "main": "src/index.ts",
   "version": "0.0.0",
   "type": "module",
