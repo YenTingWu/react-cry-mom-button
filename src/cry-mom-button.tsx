@@ -13,18 +13,18 @@ export const CryMomButton = React.forwardRef<
 >((props, ref) => {
   const { style, children = "Cry Mom Button", className, ...rest } = props;
 
-  const soundEffect = new Audio(cryingSoundEffect);
+  const soundEffect = React.useMemo(() => new Audio(cryingSoundEffect), []);
   const concatClassName =
     className?.concat(DEFAULT_CLASS_NAME) ?? DEFAULT_CLASS_NAME;
 
-  const handleMouseEnter = () => {
+  const handleMouseEnter = React.useCallback(() => {
     soundEffect.play();
-  };
+  }, [soundEffect]);
 
-  const handleMouseLeave = () => {
+  const handleMouseLeave = React.useCallback(() => {
     soundEffect.currentTime = 0;
     soundEffect.pause();
-  };
+  }, [soundEffect]);
 
   return (
     <button
