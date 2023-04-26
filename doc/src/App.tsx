@@ -1,4 +1,4 @@
-import { CryMomButton } from "../../src/cry-mom-button";
+import { CryMomButton } from "react-cry-mom-button";
 import "./App.css";
 
 function App() {
