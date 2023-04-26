@@ -1,5 +1,5 @@
 {
-  "name": "cry-mom-button",
+  "name": "react-cry-mom-button",
   "description": "A button for crying babies",
   "private": true,
   "main": "src/index.ts",
