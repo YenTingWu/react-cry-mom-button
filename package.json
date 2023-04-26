@@ -2,7 +2,7 @@
   "name": "react-cry-mom-button",
   "description": "A button for crying babies",
   "main": "src/index.ts",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
