@@ -5,7 +5,7 @@ function App() {
   return (
     <main>
       <div>
-        <h1>Open sound!!</h1>
+        <h1>Turn on sound!!</h1>
         <h3>Try to hover on the button below</h3>
         <CryMomButton />
       </div>
